@@ -1,5 +1,4 @@
-﻿```markdown
-# Local-First Edge AI Desktop Assistant (Windows)
+﻿# Local-First Edge AI Desktop Assistant (Windows)
 
 A privacy-preserving, user-space Windows AI desktop assistant powered by local `llama3.1:8b` via Ollama, orchestrated with FastAPI/Uvicorn, triggered system-wide via AutoHotkey v2.0 (`Ctrl+Shift+X`), and protected by a 4-tier `CustomTkinter` Human-in-the-Loop (HITL) security gate.
 
@@ -68,11 +67,5 @@ Double-click `client/assistant.ahk` (requires AutoHotkey v2.0) and press `Ctrl+S
 ```powershell
 cd backend
 python eval_runner.py
-
-```
-
-
-
-```
 
 ```
