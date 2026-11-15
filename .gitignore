@@ -1,0 +1,17 @@
+﻿# Virtual environments & Python cache
+venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+*.class
+
+# Local runtime SQLite state & backup eval folders
+backend/assistant_state.db
+backend/assistant_state.db-journal
+backend/eval_results_v1/
+backend/eval_results/eval_temp_state.db
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
